@@ -4,7 +4,7 @@ This repository contains the data release for the paper *Delving into Qualitativ
 In this repository, we release the set of data that was manually annotated (3,500 examples in total). This subset does not include the original texts from the Measuring Hate Speech Corpus (Kennedy et al., 2020; Sachdeva et al., 2022), but only their comment IDs from the original dataset and the aggregated hate speech label we calculated for them, so the source MHS corpus should be first retrieved if one wishes to pair the source texts with their synthetic version.
 [Here](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) is a link to the Measuring Hate Speech Corpus. 
 
-**Warning: These filed contain hateful and upsetting language.**
+**Warning: These files contain hateful and upsetting language.**
 
 ## Description of the files
 The annotation was divided into two sets:
