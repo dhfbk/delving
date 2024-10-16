@@ -22,6 +22,7 @@ The annotation was divided into two sets:
 	- `world_knowledge_correct`: whether the world knowledge present in the synthetic text is ok/realistic. Can be `Yes` or `No`.
 	- target information: for each target category *t* in [*origin*, *race*, *religion*, *gender*, *sexuality*, *age*, and *disability*], there is a column `target_`\[*t*\], which is `FALSE` if that target is not present in the synthetic text, or a string detailing which target type it is if there is one under that category. We use the same targets as the original MHS corpus where possible for all categories but *origin*, since it can get extremely sparse, for which we only use the `TRUE`value if relevant.
 
+Please note: for easier parsin and visualization of the files, we have changed all double inverted commas into single inverted commas in the texts.
 
 ## Cite
 The paper is set to appear in the proceedings of the EMNLP 2024 conference. 
